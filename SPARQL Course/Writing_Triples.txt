@@ -1,0 +1,25 @@
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://looneytunes-graph.com/>
+
+#Bugs_Bunny
+:Bugs_Bunny :name "Bugs Bunny" ;
+  :species "Hare" ;
+  :gender "Male" ;
+	:made_debut_appearance_in :A_Wild_Hare; 
+	:created_by :Tex_Avery ; 
+	:personality_trait "Cunning" ; 
+	:personality_trait "Charasmatic" ; 
+	:personality_trait "Smart" ; 
+	:known_for_catchphrase "whats up doc?" . 
+
+#A wild hare
+:A_Wild_Hare a :Short ; 
+
+	:release_date "1946-07-27" ^^xsd:date . 
+
+#Tex_Avery
+:Tex_Avery a :Person ; 
+	:name "Fredrick Bean Avery" ; 
+	:born_on "1908-02-26"^^xsd:date ; 
+	:died_on "1980-08-26"^^xsd:date ; 
