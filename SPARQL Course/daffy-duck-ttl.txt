@@ -1,0 +1,13 @@
+# Daffy Duck
+:Daffy_Duck a :Looney_Tunes_Character ;
+  :name "Daffy Damas Duck" ;
+  :species "American Black Duck" ;
+  :gender "Male" ;
+  :made_debut_appearance_in :Porkys_Duck_Hunt ;
+  :created_by :Tex_Avery ;
+  :personality_trait "Assertive" , "Unrestrained" , "Combative" ;
+  :known_for_catchphrase "You're despicable!" .
+
+# Porky's Duck Hunt
+:Porkys_Duck_Hunt a :Short ;
+  :release_date "1937-04-17"^^xsd:date .

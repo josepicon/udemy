@@ -1,0 +1,11 @@
+# Select everything
+SELECT *
+WHERE {
+    ?s ?p ?o
+}
+
+# Select specific variables
+SELECT ?s ?p ?o
+WHERE {
+    ?s ?p ?o
+}
