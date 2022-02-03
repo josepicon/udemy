@@ -1,0 +1,10 @@
+PREFIX : <http://looneytunes-graph.com/>
+
+SELECT ?n ?f ?d
+WHERE {
+  ?c a :Looney_Tunes_Character ; 
+   :name ?n ;
+   :created_by ?f . 
+  ?f :born_on ?d
+           
+}

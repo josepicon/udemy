@@ -1,0 +1,7 @@
+PREFIX : <http://looneytunes-graph.com/>
+
+SELECT (COUNT(DISTINCT ?ptype) AS ?ptypeCount)
+WHERE {
+    ?c :created_by ?p .
+    ?p a ?ptype
+}
